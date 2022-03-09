@@ -1,24 +1,24 @@
 body {
-  background: #F6DDCC;
+  background: #FBEEE6;
 }
 
 html{
   font-family: 'Lato', sans-serif;
 }
 
-.bilder{
+/*.bilder{
 
 }
-
+*/
 h1{
   margin: 0;
   padding: 0;
 }
 
-h2{
+/*h2{
 
 }
-
+*/
 h3.Untertitel{
   margin: 10 0 0 0;
 }
@@ -33,3 +33,35 @@ td{
 nav{
   color: #99A3A4;
 }
+
+img.Startseite{
+  width: 850px;
+  height: 300px;
+  padding: 5px;
+}
+
+div.Startseite{
+  text-align: center;
+}
+img.logo{
+  width: 150px;
+  padding: 10 5 5 5;
+}
+div.logo{
+  text-align: right;
+}
+
+div.Nachhaltigkeit{
+  text-align: center;
+}
+
+img.PEFC_Logo{
+  width: 200px;
+}
+
+/*ul { 
+  font-size: 1.3em; 
+}
+ul ul { 
+  font-size: inherit; 
+}*/
