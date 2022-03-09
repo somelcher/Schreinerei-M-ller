@@ -1,24 +1,36 @@
 body {
   background: #FBEEE6;
+  max-width: 60em;
+	margin: 1em auto;
 }
 
 html{
   font-family: 'Lato', sans-serif;
 }
-
 /*.bilder{
 
 }
 */
+
 h1{
   margin: 0;
-  padding: 0;
+  background-color: firebrick;
+	color: #FBEEE6;
+	padding: 0.5em;
+	font-family: sans-serif;
+	border-radius: 0 1em 1em 1em;
+  text-align: center;
 }
 
-/*h2{
-
+h2 {
+	font-size: 2.6em;
+	color: firebrick;
+	background-color: LightSalmon;
+	border: thin solid;
+	font-family: cursive;
+	text-align: center;
 }
-*/
+
 h3.Untertitel{
   margin: 10 0 0 0;
 }
@@ -31,11 +43,12 @@ td.navigation{
 }
 
 td.pefc{
-
+  padding: 0 10px 0 0;
 }
 
 nav{
   color: #99A3A4;
+  padding: 10px;
 }
 
 img.Startseite{
@@ -61,6 +74,45 @@ div.Nachhaltigkeit{
 
 img.PEFC_Logo{
   width: 100px;
+}
+
+p,
+ul,
+ol,
+table {
+	font-size: 1.3em;
+	text-align: justify;
+	font-family: sans-serif;
+	color: brown;
+}
+
+ul ul {
+	font-size: inherit;
+}
+
+#angebot {
+	background-color: firebrick;
+	margin: 1em 3em;
+	padding: 1em;
+	width: 10em;
+	text-align: center;
+}
+
+#angebot h3 {
+  font-family: serif;
+	font-size: 2em;
+	font-variant: small-caps;
+	color: lightyellow;
+}
+
+#angebot p {
+	color: white;
+  font-family: serif;
+}
+p.angebot {
+	color: brown;
+	font-size: 1.1em;
+  text-align: center;
 }
 
 /*ul { 
